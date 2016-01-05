@@ -1,27 +1,16 @@
-
+//严格模式下 function a 为块级funciton
+'use strict'
 {
     function a(){
         console.log('a called')
     }
-}
-console.log(a()) //=> b called
-
-if(false){
-    function c(){
+    var b = function(){
+        console.log('b called')
+    }
+    let c = function(){
         console.log('c called')
     }
-    var d = function(){
-        console.log('d called')
-    }
 }
-console.log(c()) // c called
-
-//console.log(d()) //=> TypeError: undefined is not function
-{
-    (function(){
-        var e = function(){
-            console.log('e called')
-        }
-    })()
-}
-//console.log(e) //=> ReferenceError: c is not defined
+//console.log(a()) //=> ReferenceError: b is not defined
+console.log(b()) //=> b called
+//console.log(c()) //=> ReferenceError: c is not defined
