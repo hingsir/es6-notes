@@ -6,6 +6,7 @@ Learning notes of ES6
 ```bash
 node syntax/block_scope_variable.js
 ```
-[块级变量](/syntax/block_scope_variable.js)
-[块级函数](/syntax/block_scope_function.js)
-[常量](/syntax/block_scope_function.js)
+* 语法
+  * [块级变量](/syntax/block_scope_variable.js)
+  * [块级函数](/syntax/block_scope_function.js)
+  * [常量](/syntax/block_scope_function.js)
