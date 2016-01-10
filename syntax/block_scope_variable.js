@@ -18,7 +18,6 @@ console.log(b) //=> undefined
 //console.log(c) //=> ReferenceError: c is not defined
 
 //在es6中，可以用let声明一个块级作用域的变量
-
 {
     let d = 'd'
 }

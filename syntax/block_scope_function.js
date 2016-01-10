@@ -1,4 +1,4 @@
-//严格模式下 function a 为块级funciton
+//严格模式下 function a 为块级function
 'use strict'
 {
     function a(){
